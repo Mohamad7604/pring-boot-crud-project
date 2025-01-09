@@ -1,2 +1,2 @@
-# pring-boot-crud-project
+# spring-boot-crud-project
 Demo using springboot
