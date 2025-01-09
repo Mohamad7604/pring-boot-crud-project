@@ -17,3 +17,19 @@ A Spring Boot application demonstrating CRUD (Create, Read, Update, Delete) oper
    ```bash
    git clone https://github.com/Mohamad7604/spring-boot-crud-project.git
    cd spring-boot-crud-project
+Configure application.properties:
+properties
+Copy code
+spring.datasource.url=jdbc:mysql://localhost:3306/your-database-name
+spring.datasource.username=your-username
+spring.datasource.password=your-password
+spring.jpa.hibernate.ddl-auto=update
+Run the application:
+bash
+Copy code
+mvn spring-boot:run
+Endpoints
+GET /api/entities - Retrieve all entities.
+POST /api/entities - Create a new entity.
+PUT /api/entities/{id} - Update an entity.
+DELETE /api/entities/{id} - Delete an entity.
